@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+link {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+p:hover {
+  color: #8c8c8c;
+}
