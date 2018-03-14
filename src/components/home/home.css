@@ -2,29 +2,18 @@
   color: #222222;
 }
 .homecontainer{
-  width: 40%;
+  width: 30%;
   display: inline-flex;
   flex-direction: row;
   text-align: center;
+  margin: 3%;
 }
-.infocontainer {
-  justify-content: flex-start;
-  text-align: center;
-}
-.profilecontainer{
-  justify-content: flex-end;
-  margin-left: 15%;
-  text-align: center;
-}
-.partnercontainer{
-  justify-content: flex-start;
-  margin-left: 10%;
-  text-align: center;
-}
-.chatcontainer{
-  justify-content: flex-end;
-  margin-left: -10%;
-  text-align: center;
+h3{
+  width: 15%;
+  display: inline-flex;
+  justify-content: space-around;
+  line-height: 3em;
+  margin: 5%;
 }
 h5, h6 {
   text-align: center;

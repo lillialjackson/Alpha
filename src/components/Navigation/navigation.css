@@ -1,14 +1,11 @@
-nav {
+.authenticate {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+.authenticate div p {
+  padding-right: 10px;
+}
+.authenticate:hover {
   cursor: pointer;
-}
-link {
-  color: #ffffff;
-}
-p {
-  color: #ffffff;
-}
-p:hover {
-  color: #8c8c8c;
 }

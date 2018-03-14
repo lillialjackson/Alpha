@@ -44,7 +44,7 @@ class PartnerSearch extends React.Component {
 
 // search get fetch
   onSearch = () => {
-    fetch(`http://localhost:3000/search?experiencelevel=${this.state.experiencelevel}&location=${this.state.location}`)
+    fetch(`https://damp-forest-34333.herokuapp.com/search?experiencelevel=${this.state.experiencelevel}&location=${this.state.location}`)
     .then(response => response.json())
     .then( response => {
       this.partnerSearchResultData(response);
