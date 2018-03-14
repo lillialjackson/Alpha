@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Navigation from './Components/Navigation/navigation.js';
-import SignIn from './Components/Signin/signin.js';
-import Register from './Components/Register/register.js';
-import PartnerSearch from './Components/Partnersearch/partnersearch.js';
-import Home from './Components/Home/home.js';
+import Navigation from './components/navigation/navigation.js';
+import SignIn from './components/signin/signin.js';
+import Register from './components/register/register.js';
+import PartnerSearch from './components/partnersearch/partnersearch.js';
+import Home from './components/home/home.js';
 import './App.css';
 
 
